@@ -2,38 +2,44 @@
 
 A toolkit of reusable agentic skills for AI agent development.
 
-## Signal Processing
+## Installation
 
-These skills help translate and interpret information across different representations.
+### Full library install
 
-* **morse-code-processing** - Bidirectional Morse Code processing that encodes plain text into International Morse Code or decodes Morse Code back into readable text using strict ITU-standard mapping. Use when converting text to Morse, Morse to text, or handling general signal translation in either direction.
+```bash
+npx skills@latest add tejasashinde/agent-skill-kit
+```
 
-  ```
-  npx skills@latest add tejasashinde/agent-skill-kit/morse-code-processing
-  ```
+### Specific skill from library
+```bash
+npx skills@latest add tejasashinde/agent-skill-kit/<skill-name>
+# Eg. npx skills@latest add tejasashinde/agent-skill-kit/five-minute-summary
+```
 
----
+## Skill Catelog
 
-## Summarization
+See [CATALOG.md](CATALOG.md) for the full catalog with description
 
-These skills help compress complex information into fast, usable insights.
+## Useful Resources
 
-* **five-minute-summary** - Condenses any topic into its most important ideas for quick understanding in under five minutes, using clear, plain language and ending with one actionable takeaway. Use when the user requests a quick overview or “five-minute summary” of a topic.
+- **[Claude Skills Docs](https://code.claude.com/docs/en/skills)**: Claude documentation for creating and using Skills to extend model capabilities with reusable, task-specific behaviors.
+- **[Anthropic Skills Guide](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)**: Official Anthropic PDF guide explaining how to design, build, test, and structure Claude Skills as reusable workflow modules for automating and standardizing tasks.
+- **[OpenAI Developer Tools Skills Guide](https://developers.openai.com/api/docs/guides/tools-skills)**: Official OpenAI documentation explaining how tools and skills work in the API ecosystem, including how to extend model capabilities using structured, reusable tool-based workflows.
 
-  ```
-  npx skills@latest add tejasashinde/agent-skill-kit/five-minute-summary
-  ```
+## Inspirations
 
----
+This project was inspired by the following repositories:
 
-## Debugging & Reasoning
+- **[sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)**
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)**
 
-These skills improve structured thinking, debugging, and logical clarity.
+## Support the Project
 
-* **rubber-duck-debugging** - A structured metacognitive debugging skill that forces step-by-step self-explanation of logic, code, or reasoning as if teaching a naïve “rubber duck.” Use when diagnosing bugs, resolving logical inconsistencies, or uncovering hidden assumptions in complex reasoning systems.
+- Star the repository if you found it useful
+- Contribute your skills and fixes.
 
-  ```
-  npx skills@latest add tejasashinde/agent-skill-kit/rubber-duck-debugging
-  ```
+## License
+
+- MIT License. See [LICENSE](LICENSE) for the detailed license.
 
 ---
