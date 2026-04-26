@@ -1,9 +1,7 @@
 # Agent Skill Kit
 
 <p align="center">
-<a href="https://commandcode.ai" target="_blank">
     <img src="./agent-skill-logo.png" style="border:2px solid #bbb; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
-</a>
 </p>
 
 A toolkit of reusable agentic skills for AI agent development.
