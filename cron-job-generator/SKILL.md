@@ -4,7 +4,7 @@ description: >
   Converts natural language scheduling requests into correct cron expressions, validates feasibility, explains schedules in simple terms. Handles standard cron limitations, suggests alternatives for irregular intervals, complex logic or event-driven triggers.
 license: MIT
 metadata:
-  author: Me
+  author: tejasashinde
   version: 1.0.0
   created: 2026-04-27
 ---
