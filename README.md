@@ -21,12 +21,17 @@ A toolkit of reusable agentic skills for AI agent development.
 
 ```bash
 npx skills@latest add tejasashinde/agent-skill-kit
+# OR
+# npx skills add https://github.com/tejasashinde/agent-skill-kit
 ```
 
 ### Specific skill from library
 ```bash
 npx skills@latest add tejasashinde/agent-skill-kit/<skill-name>
 # Eg. npx skills@latest add tejasashinde/agent-skill-kit/five-minute-summary
+
+# OR
+# npx skills add https://github.com/tejasashinde/agent-skill-kit --skill five-minute-summary
 ```
 
 ## Skill Catelog
